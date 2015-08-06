@@ -132,7 +132,6 @@ int main()
             bfs(graph,i);
     }
     cout<<endl<<endl;
-    topologicalsort(graph,v);
     shortestPath(graph,v,1);
     return 0;
 }
